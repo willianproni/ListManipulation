@@ -1,0 +1,37 @@
+[
+  {
+    "User": {
+      "nome": "Vanessa Mitchell",
+      "password": 22314265938,
+      "email": "evelynhoward@ramjob.com"
+    }
+  },
+  {
+    "User": {
+      "nome": "Haley Cervantes",
+      "password": 21168641874,
+      "email": "kathrynburks@greeker.com"
+    }
+  },
+  {
+    "User": {
+      "nome": "Lacey Nunez",
+      "password": 10912553797,
+      "email": "emersonjohns@billmed.com"
+    }
+  },
+  {
+    "User": {
+      "nome": "Pat Rocha",
+      "password": 51263046840,
+      "email": "wallacemoreno@navir.com"
+    }
+  },
+  {
+    "User": {
+      "nome": "Owen Ellison",
+      "password": 41102008206,
+      "email": "gatesholcomb@slax.com"
+    }
+  }
+]
