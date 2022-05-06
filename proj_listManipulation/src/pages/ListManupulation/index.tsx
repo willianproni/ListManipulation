@@ -19,12 +19,18 @@ export function ListManipulation() {
 
     }
 
+    function toggleDone(props: any) {
+        let newItems = [...item]
+        newItems[props].done = !newItems[props].done;
+        setItem(newItems);
+    }
+
     return (
         <SafeAreaView>
             <AddItemArea onAdd={addNewItem} />
             <Listagem
                 data={item}
-                renderItem={({ item }) => <ListaItem data={item} />}
+                renderItem={({ item, index }) => <ListaItem onPress={() => toggleDone(index)} data={item} />}
             />
         </SafeAreaView>
     );

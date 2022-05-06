@@ -1,12 +1,12 @@
 import React from "react";
-import { Item, ItemCheck, ItemText, Listagem, Scroll } from "./styles";
+import { Item, ItemCheck, ItemText } from "./styles";
 
 export default (props: any) => {
     return (
-        <Item onPress={() => { }} activeOpacity={0.5}>
+        <Item onPress={props.onPress} activeOpacity={1} underlayColor="#ddd">
             <>
                 <ItemText>{props.data.task}</ItemText>
-                <ItemCheck></ItemCheck>
+                <ItemCheck done={props.data.done}></ItemCheck>
             </>
         </Item>
     );
